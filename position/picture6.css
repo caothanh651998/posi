@@ -1,0 +1,111 @@
+.slideshow{
+	width: 100%;
+	height: 500px;
+	background: yellow;
+	position: relative;
+}
+.slideshow img{
+	width: 100%;
+	height: 98%;
+	position: absolute;
+	top: 1%;
+}
+.content{
+	width: 100%;
+	height: 100%;
+}
+.content img{
+	width: 30%;
+	height: 50%;
+	position: absolute;
+	top: 25%;
+	right: 12%;
+}
+.content .noidung{
+	width: 45%;
+	height: 200px;
+	position: absolute;
+	top: 20%;
+	left: 10%;
+}
+.noidung h1{
+	margin: 0;
+	color: white;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	font-size: 60px;
+}
+.noidung p{
+	margin: 0;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: left;
+}
+.content ul{
+	list-style-type: none;
+}
+.content ul li{
+	margin: 0;
+	padding: 0;
+	width: 40px;
+	height: 40px;
+	background: yellow;
+	position: absolute;
+}
+.content li.prev{
+	top: 50%;
+	left: 3%;
+	background-position: top 2.5px left 2.5px;
+	background-image: url('prev (2).png');
+	background-repeat: no-repeat;
+	background-size: 35px 35px;
+}
+.content li.next{
+	top: 50%;
+	right: 3%;
+	background-position: top 2.5px left 2.5px;
+	background-image: url('next (2).png');
+	background-repeat: no-repeat;
+	background-size: 35px 35px;
+}
+.content ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-indent: -9999px;
+}
+.content input{
+	margin: 0;
+	position: absolute;
+	top: 60%;
+	left: 12%;	
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.content input.submit{
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 50px;
+	background: yellow;
+	box-shadow: 0 0 0 7px white;
+	border: 0;
+}
+.content input.r{
+	top: 90%;
+	left: 47%;
+	background: yellow;
+}
+.content input.a{
+	top: 90%;
+	left: 50%;
+	background: yellow;
+}
+.content input.d{
+	top: 90%;
+	left: 53%;
+	background: yellow;
+}

@@ -1,0 +1,91 @@
+.slideshow{
+	width: 100%;
+	height: 400px;
+}
+.slideshow .content{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.content img{
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+}
+.content .noidung{
+	width: 70%;
+	height: 100%;
+	position: absolute;
+	top: 20px;
+	left: 210px;
+}
+.noidung h1{
+	display: block;
+	margin: 0;
+	text-align: center;
+	color: white;
+}
+.noidung p{
+	display: block;
+	margin: 0;
+	text-align: center;
+	color: #ADA7A7;	
+	font-size: 20px;
+}
+.noidung p strong{
+	color: white;
+}
+.noidung input{
+	width: 30%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 50px;
+	margin-left: 170px;
+	float: left;
+	border: 2px solid white;
+	background: none;
+	color: #DBD5D5;
+	font-size: 20px;
+}
+.noidung input.submit{
+	display: block;
+	float: left;
+	width: 30%;
+	margin-left: 10px;
+	margin-top: 50px;
+	color: white;
+}
+.noidung input.fall{
+	clear: both;
+	margin-left: 320px;
+	margin-top: 10px;
+	color: white;
+}
+.content ul{
+	list-style-type: none;
+}
+.content ul li{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+}
+.content li.prev{
+	top: 40%;
+	left: 0;
+	background-image: url('picture/prev3.png');
+	background-repeat: no-repeat;
+	background-size: 80px 80px;
+}
+.content li.next{
+	top: 40%;
+	right: 0;
+	background-image: url('picture/next3.png');
+	background-repeat: no-repeat;
+	background-size: 80px 80px;
+}
+.content li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-indent: -9999px;
+}
